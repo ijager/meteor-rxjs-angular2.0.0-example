@@ -1,0 +1,13 @@
+AppComponent: {{title}} <br>
+
+<input [(ngModel)]="newThing"/> <button (click)="addThing()"> ADD THING </button> <br>
+
+{{message}}
+
+<h1> Things </h1>
+<ul>
+    <li *ngFor="let thing of things"> 
+        {{thing.name}} 
+        <button (click)="removeThing(thing)"> remove </button> 
+    </li>
+<ul>

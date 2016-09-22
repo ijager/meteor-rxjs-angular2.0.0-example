@@ -1,5 +1,5 @@
 {
-  "name": "meteor-angular2.0.0-minimal",
+  "name": "meteor-rxjs-angular2.0.0",
   "private": true,
   "scripts": {
     "start": "meteor run"
@@ -8,10 +8,12 @@
     "@angular/common": "^2.0.0",
     "@angular/compiler": "^2.0.0",
     "@angular/core": "^2.0.0",
+    "@angular/forms": "^2.0.0",
     "@angular/platform-browser": "^2.0.0",
     "@angular/platform-browser-dynamic": "^2.0.0",
     "core-js": "^2.4.1",
     "meteor-node-stubs": "^0.2.3",
+    "meteor-rxjs": "https://github.com/ijager/meteor-rxjs",
     "reflect-metadata": "^0.1.8",
     "rxjs": "^5.0.0-beta.12",
     "zone.js": "^0.6.25"
